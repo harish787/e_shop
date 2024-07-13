@@ -1,0 +1,97 @@
+/* Footer.css */
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    padding: 20px;
+}
+
+.footer-section.about {
+    flex: 1;
+    max-width: 300px;
+}
+
+.logo-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.socials a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.socials a:hover {
+    transform: translateY(-3px);
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links ul a:hover {
+    color: #45a049;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #45a049;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #3e8948;
+    transform: scale(1.05);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #ccc;
+    font-size: 0.9rem;
+}
